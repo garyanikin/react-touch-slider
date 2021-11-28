@@ -1,0 +1,78 @@
+.numbers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 0.5rem 0;
+  overflow-y: hidden;
+  position: relative;
+  height: 3rem;
+}
+
+.number span {
+  /* animation: none; */
+  display: inline-block;
+  animation-duration: 350ms;
+  animation-fill-mode: both;
+}
+
+/* Transition numbers from top */
+
+.number.fromTop span {
+  /* animation-name: fromTop; */
+}
+
+.number.fromTop.reversed span {
+  /* animation: fromTop 800ms; */
+  /* animation-direction: reverse; */
+}
+
+@keyframes fromTop {
+  0% {
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Transition numbers from bottom */
+
+.number.fromBottom span {
+  /* animation-name: fromBottom; */
+}
+
+@keyframes fromBottom {
+  0% {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* React Transition Group */
+
+.number {
+  position: absolute;
+}
+
+.number.fromTop.number-enter.number-enter-active span {
+  animation-name: fromTop;
+}
+
+.number.fromTop.number-exit.number-exit-active span {
+  animation-name: fromTop;
+  animation-direction: reverse;
+}
+
+.number.fromBottom.number-enter.number-enter-active span {
+  animation-name: fromBottom;
+}
+
+.number.fromBottom.number-exit.number-exit-active span {
+  animation-name: fromBottom;
+  animation-direction: reverse;
+}
