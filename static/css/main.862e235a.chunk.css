@@ -1,0 +1,2 @@
+.app,body{overflow:hidden}.app{height:100vh;width:100vw;padding-top:10rem;touch-action:none}.wrapper{font-size:3rem;height:3rem;padding:1.5rem 0;overflow-y:hidden}.text-wrapper,.wrapper{display:flex;justify-content:center;position:relative}.text-wrapper{font-size:1.5rem;height:1.5rem;touch-action:none}.current{position:absolute;pointer-events:none}.animated .current,.animated .next{transition:transform .3s}
+/*# sourceMappingURL=main.862e235a.chunk.css.map */
