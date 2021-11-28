@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-touch-slider/static/css/main.120d4a70.chunk.css",
-    "main.js": "/react-touch-slider/static/js/main.11016beb.chunk.js",
-    "main.js.map": "/react-touch-slider/static/js/main.11016beb.chunk.js.map",
+    "main.css": "/react-touch-slider/static/css/main.862e235a.chunk.css",
+    "main.js": "/react-touch-slider/static/js/main.9ea59f3b.chunk.js",
+    "main.js.map": "/react-touch-slider/static/js/main.9ea59f3b.chunk.js.map",
     "runtime-main.js": "/react-touch-slider/static/js/runtime-main.49a1230c.js",
     "runtime-main.js.map": "/react-touch-slider/static/js/runtime-main.49a1230c.js.map",
     "static/js/2.18058807.chunk.js": "/react-touch-slider/static/js/2.18058807.chunk.js",
     "static/js/2.18058807.chunk.js.map": "/react-touch-slider/static/js/2.18058807.chunk.js.map",
     "index.html": "/react-touch-slider/index.html",
-    "static/css/main.120d4a70.chunk.css.map": "/react-touch-slider/static/css/main.120d4a70.chunk.css.map",
+    "static/css/main.862e235a.chunk.css.map": "/react-touch-slider/static/css/main.862e235a.chunk.css.map",
     "static/js/2.18058807.chunk.js.LICENSE.txt": "/react-touch-slider/static/js/2.18058807.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.49a1230c.js",
     "static/js/2.18058807.chunk.js",
-    "static/css/main.120d4a70.chunk.css",
-    "static/js/main.11016beb.chunk.js"
+    "static/css/main.862e235a.chunk.css",
+    "static/js/main.9ea59f3b.chunk.js"
   ]
 }
